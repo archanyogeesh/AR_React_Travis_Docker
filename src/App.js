@@ -16,8 +16,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Get More info -Learn react 
         </a>
+
+        <p>
+          React app is running in docker container!!! By Archan S Y.
+        </p>
       </header>
     </div>
   );
