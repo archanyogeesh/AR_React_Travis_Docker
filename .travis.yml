@@ -13,10 +13,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "ArReactapp"
+  app: "AR_ReactApp"
   env: "ArReactapp-env"
   bucket_name: "elasticbeanstalk-us-east-2-980992176666"
-  bucket_path: "ArReactapp"
+  bucket_path: "AR_ReactApp"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
